@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-toolbar backgrond color="primary">
+    <ion-title>Apotheek</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+<ion-slides [options]="option" class="ion-margin-top">
+
+<ion-slide>
+  <ion-card>
+ <img src="https://www.medibib.nl/img/producten/900x900/ibuprofen-teva-dragee-30-x-200-mg.jpg">
+</ion-card>
+</ion-slide>
+
+<ion-slide>
+  <ion-card>
+ <img src="https://files.huisapotheker-zottegem.be/cache/products/images/cache_400x400/51973541eead1a9bf76116d6e4b2e8ca3079e59a.jpeg">
+  </ion-card>
+</ion-slide>
+
+
+</ion-slides>
+
+<ion-fab vertical="bottom" horizontal="end" slot="fixed">
+  <ion-fab-button tab="chevron-back-circle" routerLink="/medicatie">
+  <ion-icon name="chevron-back-circle">
+  </ion-icon>
+  </ion-fab-button>
+  </ion-fab>
+
+</ion-content>

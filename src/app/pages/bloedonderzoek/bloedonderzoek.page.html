@@ -1,0 +1,49 @@
+<ion-header>
+  <ion-toolbar backgrond color="primary">
+    <ion-title>Bloedonderzoek</ion-title>
+  </ion-toolbar>
+</ion-header>
+<br>
+<ion-content class="ion-padding ion-text-center">
+
+  <div class="logo">
+  
+  <img src='https://cdn-icons-png.flaticon.com/512/504/504036.png' />
+  </div>
+  <br>
+  <div class="form">
+  <ion-item lines='full'>
+  <ion-input placeholder='Volledige naam'></ion-input>
+  </ion-item>
+  
+  <ion-item lines='full'>
+  <ion-input placeholder='Geboortedatum'></ion-input>
+  </ion-item>  
+
+  <ion-item lines='full'>
+    <ion-input placeholder='Reden'></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-avatar routerLink="/bijlage" slot="start">
+        <img src="https://cdn-icons-png.flaticon.com/512/32/32339.png" />
+      </ion-avatar>
+      <ion-label>
+        <h2>Bijlage toevoegen</h2>
+       
+      </ion-label>
+      <ion-label slot="end" class="ion-text-right">
+      </ion-label>
+    </ion-item>
+  <br>
+  <ion-button color='dark' expand='block' routerLink="/homepagina">Indienen</ion-button>
+  </div>
+
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button tab="chevron-back-circle" routerLink="/homepagina">
+    <ion-icon name="chevron-back-circle">
+    </ion-icon>
+    </ion-fab-button>
+    </ion-fab>
+  
+  </ion-content>

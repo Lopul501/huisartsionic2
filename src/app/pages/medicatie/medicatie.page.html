@@ -1,0 +1,47 @@
+<ion-header>
+  <ion-toolbar backgrond color="primary">
+    <ion-title>Medicijnen</ion-title>
+  </ion-toolbar>
+</ion-header>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<ion-content [fullscreen]="true">
+
+<ion-slides [options]="option" class="ion-margin-top">
+
+<ion-slide>
+  <ion-card>
+ <img src="./assets/medicatie4.png" routerLink="/medicijneninname">
+</ion-card>
+</ion-slide>
+
+<ion-slide>
+  <ion-card>
+ <img src="./assets/medicatie3.png" routerLink="/apotheek">
+  </ion-card>
+</ion-slide>
+
+<ion-slide>
+  <ion-card>
+ <img src="./assets/medicatie2.png" routerLink="/bestellen">
+  </ion-card>
+</ion-slide>
+
+
+
+</ion-slides>
+
+<ion-fab vertical="bottom" horizontal="end" slot="fixed">
+  <ion-fab-button tab="chevron-back-circle" routerLink="/homepagina">
+  <ion-icon name="chevron-back-circle">
+  </ion-icon>
+  </ion-fab-button>
+  </ion-fab>
+
+</ion-content>
